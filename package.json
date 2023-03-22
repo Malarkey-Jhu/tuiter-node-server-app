@@ -1,0 +1,18 @@
+{
+  "name": "tuiter-node-server-app",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Node.js HTTP Web server for the Tuiter application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alan Jhu <alan61109@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
